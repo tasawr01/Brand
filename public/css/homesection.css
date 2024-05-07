@@ -1,0 +1,77 @@
+.home-section {
+    height: 100vh;
+    background-image: url(../slide-03.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: black;
+    padding: 0 20px;
+    text-align: left;
+}
+
+.hero-section {
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 50%;
+}
+
+.hero-section h1 {
+    font-size: 36px;
+}
+
+.hero-section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+
+.hero-section button{
+  height: 50px;
+  width: 200px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  background: #d1d9e6;
+  font-size: 25px;
+  color: black;
+  cursor: pointer;
+  margin: 0 30px;
+}
+.hero-section .btn{
+  box-shadow: 8px 8px 12px -2px rgba(72, 79, 96, 0.4), -6px -6px 12px -1px white;
+}
+.hero-section .btn:hover{
+  font-size: 24px;
+  box-shadow: inset -4px -4px 6px -1px white, inset 2px 2px 8px -1px rgba(72, 79, 96, 0.5);
+}
+.hero-section .btn i{
+  margin-left: 15px;
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+    .home-section{
+        width: auto;
+        background-image: none;
+        background-color: #f0ece4;
+    }
+    .hero-section{
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+    .hero-section h1 {
+        font-size: 36px;
+        margin-left: 0;
+    }
+    
+    .hero-section p {
+        font-size: 18px;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+}
